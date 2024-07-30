@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
-const config = require('./config');
+const config = require('./admin-config');
 
 const app = express();
 const PORT = 3500;
