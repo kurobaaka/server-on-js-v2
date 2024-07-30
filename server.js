@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const config = require('./config');
 
 const app = express();
-const PORT = 3000;
+const PORT = 3500;
 
 // Middleware для обработки JSON
 app.use(bodyParser.json());
